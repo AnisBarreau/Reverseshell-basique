@@ -1,5 +1,4 @@
 import socket 
-import os
 
 s= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind(("10.52.84.19", 6000))
