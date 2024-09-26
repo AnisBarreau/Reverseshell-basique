@@ -1,7 +1,7 @@
 import socket 
 
 s= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(("10.52.84.19", 6000))
+s.bind(("XX.XX.XX.XX", 6000))
 s.listen()
 conn, addr = s.accept()
 
